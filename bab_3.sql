@@ -19,6 +19,6 @@ where Age > 35;
 select * from Customer
 where Firstname like '%bela%';
 select * from Customer
-where Country 'Germany' and Age=31;
+where Country='Germany' and Age=31;
 select * from Customer
-where Country 'Germany' or Age=31;
+where Country='Germany' or Age=31;
